@@ -1,3 +1,3 @@
 public enum ETaste {
-    salty, sweet, spicy, bitter, sour;
+    salty, sweet, spicy, bitter, sour
 }

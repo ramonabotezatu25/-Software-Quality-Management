@@ -1,7 +1,5 @@
-import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.Assert;
-import org.junit.experimental.categories.Categories;
 import org.junit.experimental.categories.Category;
 
 public class FoodTest {
