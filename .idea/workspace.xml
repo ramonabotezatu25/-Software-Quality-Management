@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cb540a9-e427-463e-a19e-d043ae8d4263" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ETaste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/AllTestWithoutError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ErrorTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/FoodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/RightTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AllErrorTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AllRightTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quality-management.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quality-management.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ErrorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ErrorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/RightTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/RightTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,11 +47,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/FoodTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="141" column="49" selection-start-line="141" selection-start-column="49" selection-end-line="141" selection-end-column="49" />
+            <state relative-caret-position="415">
+              <caret line="73" column="44" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/AllRightTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/AllErrorTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/RightTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/ErrorTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,9 +152,11 @@
         <option value="$PROJECT_DIR$/src/Food.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/tests/AllTestWithoutError.java" />
-        <option value="$PROJECT_DIR$/tests/ErrorTests.java" />
-        <option value="$PROJECT_DIR$/tests/RightTests.java" />
         <option value="$PROJECT_DIR$/tests/FoodTest.java" />
+        <option value="$PROJECT_DIR$/tests/RightTests.java" />
+        <option value="$PROJECT_DIR$/tests/AllRightTests.java" />
+        <option value="$PROJECT_DIR$/tests/ErrorTests.java" />
+        <option value="$PROJECT_DIR$/tests/AllErrorTests.java" />
       </list>
     </option>
   </component>
@@ -173,6 +194,11 @@
             <path>
               <item name="quality-management" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="quality-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="JUnit4" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -215,7 +241,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RightTests">
+  <component name="RunManager" selected="JUnit.AllRightTests">
+    <configuration name="AllErrorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="quality-management" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AllErrorTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllRightTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="quality-management" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AllRightTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AllTestWithoutError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="quality-management" />
       <option name="PACKAGE_NAME" value="" />
@@ -234,25 +278,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FoodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="quality-management" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FoodTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FoodTest.testRightForTatse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="quality-management" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FoodTest" />
-      <option name="METHOD_NAME" value="testRightForTatse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RightTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="quality-management" />
       <option name="PACKAGE_NAME" value="" />
@@ -263,19 +288,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.FoodTest" />
-      <item itemvalue="JUnit.FoodTest.testRightForTatse" />
       <item itemvalue="JUnit.AllTestWithoutError" />
       <item itemvalue="JUnit.ErrorTests" />
       <item itemvalue="JUnit.RightTests" />
+      <item itemvalue="JUnit.AllErrorTests" />
+      <item itemvalue="JUnit.AllRightTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AllRightTests" />
+        <item itemvalue="JUnit.AllErrorTests" />
         <item itemvalue="JUnit.RightTests" />
         <item itemvalue="JUnit.ErrorTests" />
         <item itemvalue="JUnit.AllTestWithoutError" />
-        <item itemvalue="JUnit.FoodTest" />
-        <item itemvalue="JUnit.FoodTest.testRightForTatse" />
       </list>
     </recent_temporary>
   </component>
@@ -289,23 +314,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579352776297</updated>
-      <workItem from="1579352777543" duration="9672000" />
+      <workItem from="1579352777543" duration="10964000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FoodTest_testErrorForCalories - 2020.01.18 at 18h 33m 11s.xml">
-      <configuration name="FoodTest.testErrorForCalories" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FoodTest_testPerformance - 2020.01.18 at 18h 36m 20s.xml">
-      <configuration name="FoodTest.testPerformance" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FoodTest - 2020.01.18 at 18h 36m 44s.xml">
-      <configuration name="FoodTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FoodTest - 2020.01.18 at 18h 37m 00s.xml">
-      <configuration name="FoodTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FoodTest_testSetHealthy - 2020.01.18 at 18h 40m 13s.xml">
       <configuration name="FoodTest.testSetHealthy" configurationId="JUnit" />
     </history-entry>
@@ -324,9 +337,21 @@
     <history-entry file="FoodTest - 2020.01.18 at 18h 46m 28s.xml">
       <configuration name="FoodTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FoodTest - 2020.01.18 at 19h 05m 49s.xml">
+      <configuration name="FoodTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllTestWithoutError - 2020.01.18 at 19h 05m 55s.xml">
+      <configuration name="AllTestWithoutError" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ErrorTests - 2020.01.18 at 19h 06m 01s.xml">
+      <configuration name="ErrorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RightTests - 2020.01.18 at 19h 06m 06s.xml">
+      <configuration name="RightTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9672000" />
+    <option name="totallyTimeSpent" value="10964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -344,7 +369,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22292994" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -352,7 +377,7 @@
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.25107297" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -419,26 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/ErrorTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/RightTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/AllTestWithoutError.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -451,8 +456,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/FoodTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="141" column="49" selection-start-line="141" selection-start-column="49" selection-end-line="141" selection-end-column="49" />
+        <state relative-caret-position="415">
+          <caret line="73" column="44" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/RightTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ErrorTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AllRightTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AllErrorTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
